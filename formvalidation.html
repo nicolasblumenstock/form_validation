@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wireframe</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="formvalidation.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="formvalidation.js"></script>	
+</head>
+<body>
+	<div class="container">
+	<form class="sign-up-form">	
+		<div class="row">
+			<div class="col-sm-offset-3 col-sm-6 full">
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-10 banner">
+						<h2>Sign up now!</h2>
+						<p>Sign up for the dev job of your dreams!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1">
+						<h4 class="numBullet">1</h4>
+					</div>
+					<div class="col-sm-10">
+						<h4 class="titles">First Name & Address</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-10 informations">
+						<!-- <form id="target"> -->
+							<div class="form-group">
+								<div class="error name-error text-danger"></div>
+								<label>Your full name</label>
+								<input type="text" class="form-control" id="name" placeholder="Your Full Name">
+							</div>
+							<div class="form-group">
+								<div class="error address-error text-danger"></div>							
+								<label>Address</label>
+								<input type="text" class="form-control" id="address" placeholder="Your Address">
+							</div>
+						<!-- </form> -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1">
+						<h4 class="numBullet">2</h4>
+					</div>
+					<div class="col-sm-10">
+						<h4 class="titles">Contact Info</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-10 informations">
+						<!-- <form id="target"> -->
+							<div class="form-group">
+								<div class="error email-error text-danger"></div>
+								<label>Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Your Email Address">
+							</div>
+							<div class="form-group">
+								<div class="error phone-error text-danger"></div>
+								<label>Phone</label>
+								<input type="text" class="form-control" id="phone" placeholder="Your Phone Number">
+							</div>
+						<!-- </form> -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1">
+						<h4 class="numBullet">3</h4>
+					</div>
+					<div class="col-sm-10">
+						<h4 class="titles">Password</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-10 informations">
+						<!-- <form id="target"> -->
+							<div class="form-group">
+								<div class="error password-error text-danger"></div>
+								<label>Password</label>
+								<input type="password" class="form-control" id="password" placeholder="Password must be 6 characters">
+							</div>
+							<div class="form-group">
+								<div class="error password2-error text-danger"></div>
+								<label>Password Confirmation</label>
+								<input type="password" class="form-control" id="password2" placeholder="Confirm Password">
+							</div>
+						<!-- </form> -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1">
+						<h4 class="numBullet">4</h4>
+					</div>
+					<div class="col-sm-10">
+						<h4 class="titles">Skills</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-10 informations">
+						<!-- <form id="target"> -->
+							<div class="form-group">
+								<div class="error skills-error text-danger"></div>
+								<label>My Tech Skills</label>
+								<input type="text" class="form-control" id="skills" placeholder="Enter Your Skills">
+							</div>
+							<div class="form-group">
+								<div class="error years-error text-danger"></div>
+								<label>Years of Experience</label>
+								<input type="text" class="form-control" id="years" placeholder="Years of XP">
+							</div>
+						<!-- </form> -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-10">
+					<div class="error agreement-error"></div>
+						<button type="submit" class="btn btn-default submit">Get Me a Job!</button>					
+						<div class="checkbox text-center">
+							<label><input type="checkbox" value=" " id="agreement">I agree to the terms and policies</label>
+						</div>					
+					</div>
+				</div>												
+			</div>											
+		</div>
+	</form>	
+	</div>	
+
+</body>
+</html>
